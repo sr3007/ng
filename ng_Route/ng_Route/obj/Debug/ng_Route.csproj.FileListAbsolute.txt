@@ -37,3 +37,4 @@ D:\Angularjs\ng\ng_Route\ng_Route\bin\System.Web.WebPages.Deployment.xml
 D:\Angularjs\ng\ng_Route\ng_Route\bin\System.Web.WebPages.Razor.xml
 D:\Angularjs\ng\ng_Route\ng_Route\obj\Debug\ng_Route.dll
 D:\Angularjs\ng\ng_Route\ng_Route\obj\Debug\ng_Route.pdb
+D:\Angularjs\ng\ng_Route\ng_Route\obj\Debug\ng_Route.csprojResolveAssemblyReference.cache

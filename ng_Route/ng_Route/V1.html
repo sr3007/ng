@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html data-ng-app="ngApp">
+<head>
+    <title>First View</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div data-ng-controller="firstCtrl">
+        <h3>First Names</h3>
+        <ul data-ng-repeat="cust in customers">
+            {{cust.fistName}}
+        </ul>
+        <br />
+        <a href="#/V2">Last Names</a>
+    </div>
+</body>
+</html>

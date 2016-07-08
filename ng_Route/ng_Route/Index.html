@@ -1,12 +1,16 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="ngApp">
 <head>
-    <title></title>
+    <title>Angularjs Route Example</title>
 	<meta charset="utf-8" />
     <script src="Scripts/angular.js"></script>
     <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/LogicGoesHere.js"></script>
 </head>
-<body>
+<body ng-controller="firstCtrl">
     <h2>Angularjs Route</h2>
+    <ul ng-repeat="cust in customers">
+        {{cust.fistName}}
+    </ul>
 </body>
 </html>

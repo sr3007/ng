@@ -122,6 +122,9 @@
     <Content Include="Index.html" />
     <Content Include="Scripts\angular-route.js" />
     <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\LogicGoesHere.js" />
+    <Content Include="V1.html" />
+    <Content Include="V2.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
