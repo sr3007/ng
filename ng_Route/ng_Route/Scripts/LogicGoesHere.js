@@ -5,6 +5,17 @@
 
 var myApp = angular.module("ngApp", ['ngRoute']);
 
+myApp.config(function ($routeProvider) {
+    $routeProvider
+        .when('/', {
+            templateUrl: 'V1.html'
+        })
+        .when('/V2', {
+            templateUrl: 'V2.html'
+        })
+        .otherwise({ redirectTo: '/' })
+});
+
 var controllers = {};
 
 controllers.firstCtrl = function ($scope) {
@@ -19,13 +30,3 @@ controllers.firstCtrl = function ($scope) {
 
 myApp.controller(controllers);
 
-myApp.config(function ($routeProvider) {
-    $routeProvider
-        .when('/', {
-            templateUrl: 'V1.html'
-        })
-        .when('/V2', {
-            templateUrl: 'V2.html'
-        })
-        .otherwise({ redirectTo: '/' })
-});

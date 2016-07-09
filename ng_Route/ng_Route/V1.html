@@ -3,15 +3,20 @@
 <head>
     <title>First View</title>
 	<meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/LogicGoesHere.js"></script>
 </head>
 <body>
     <div data-ng-controller="firstCtrl">
         <h3>First Names</h3>
+        {{heading}}
         <ul data-ng-repeat="cust in customers">
             {{cust.fistName}}
         </ul>
         <br />
         <a href="#/V2">Last Names</a>
     </div>
+    
 </body>
 </html>

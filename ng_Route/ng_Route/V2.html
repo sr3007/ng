@@ -1,15 +1,22 @@
 ﻿<!DOCTYPE html>
 <html data-ng-app="ngApp">
 <head>
-    <title>Second View</title>
+    <title>Last View</title>
     <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/LogicGoesHere.js"></script>
 </head>
 <body>
-    <h3>Last Names</h3>
-    <ul data-ng-controller="firstCtrl" data-ng-repeat="cust in customers">
-        {{cust.lastName}}
-    </ul>
-    <br />
-    <a href="#/">First Names</a>
+    <div data-ng-controller="firstCtrl">
+        <h3>Last Names</h3>
+        {{heading}}
+        <ul data-ng-repeat="cust in customers">
+            {{cust.lastName}}
+        </ul>
+        <br />
+        <a href="#/">First Names</a>
+    </div>
+
 </body>
 </html>
