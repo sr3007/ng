@@ -67,8 +67,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Scripts\angular.min.js.map" />
-    <Content Include="Scripts\angular-route.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -77,12 +75,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="html\FirstName.html" />
+    <Content Include="html\FullName.html" />
     <Content Include="html\Index.html" />
-    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="html\LastName.html" />
     <Content Include="Scripts\angular-route.js" />
-    <Content Include="Scripts\angular-route.min.js" />
     <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\logicHere.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

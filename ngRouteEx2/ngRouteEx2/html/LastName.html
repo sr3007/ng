@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+    <title>Displaying Last Names</title>
+    <meta charset="utf-8" />
+    <script src="/Scripts/angular-route.js"></script>
+    <script src="/Scripts/angular.js"></script>
+    <script src="/Scripts/logicHere.js"></script>
+</head>
+<body>
+    <div data-ng-controller="firstCtrl" data-ng-repeat="cust in customers">
+        {{cust.lastName}}
+    </div>
+    <br />
+    <a href="#/FN">Click here for First Names</a>
+    <a href="#/N">Click here for Full Names</a>
+</body>
+</html>
